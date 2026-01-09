@@ -24,7 +24,7 @@
 
 Bodha AI utilizes a sophisticated pipeline enabling low-latency voice interaction. Below is the high-level data flow from the user to the AI agent.
 
-```mermaid
+
 graph TD
     User([👤 User]) -->|Microphone Input| FE[💻 Frontend / Client]
     FE -->|WebRTC Stream| LK[📡 LiveKit Server]
