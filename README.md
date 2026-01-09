@@ -1,5 +1,3 @@
-
-```markdown
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=700&size=35&pause=1000&color=34ebc2&center=true&vCenter=true&width=600&lines=Bodha+AI;Real-Time+Mental+Wellness+Companion;Voice+%26+Text+Interaction;Powered+by+LiveKit+%26+LLMs;Active+Experimental+Prototype" alt="Typing SVG" />
 </div>
