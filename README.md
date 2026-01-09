@@ -42,7 +42,7 @@ graph TD
     LK -->|Playback| FE
     FE -->|Audio Output| User
 
-
+```
 
 ---
 
@@ -142,7 +142,7 @@ sequenceDiagram
 <h5>🧭 Note: Bodha AI exists to demonstrate responsible AI design, system thinking, and ethical awareness in emotionally sensitive domains.</h5>
 </div>
 
-```
+
 
 ### Key Changes Explained:
 
