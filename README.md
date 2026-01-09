@@ -42,7 +42,7 @@ graph TD
     LK -->|Playback| FE
     FE -->|Audio Output| User
 
-```
+
 
 ---
 
@@ -68,7 +68,6 @@ sequenceDiagram
         A->>U: Suggests Grounding Exercise (e.g., Box Breathing)
     end
 
-```
 
 ---
 
