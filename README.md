@@ -19,12 +19,11 @@
 </div>
 
 ---
-
 ## 🏗️ System Architecture
 
 Bodha AI utilizes a sophisticated pipeline enabling low-latency voice interaction. Below is the high-level data flow from the user to the AI agent.
 
-
+```mermaid
 graph TD
     User([👤 User]) -->|Microphone Input| FE[💻 Frontend / Client]
     FE -->|WebRTC Stream| LK[📡 LiveKit Server]
@@ -41,34 +40,6 @@ graph TD
     AG -->|Response Audio| LK
     LK -->|Playback| FE
     FE -->|Audio Output| User
-
-```
-
----
-
-## 🔁 Interaction Workflow
-
-The system is designed to handle sensitive conversations with empathy. The logic flow prioritizes validation before offering grounding techniques.
-
-```mermaid
-sequenceDiagram
-    participant U as User
-    participant A as Bodha AI
-    participant S as Safety Guardrails
-
-    U->>A: Expresses stress or anxiety
-    A->>S: Analyze sentiment & risk
-    
-    alt High Risk Detected
-        S-->>A: Trigger Emergency Protocol
-        A->>U: "I am an AI, not a doctor. Please contact emergency services..."
-    else Standard Distress
-        A->>A: Generate Empathetic Validation
-        A->>U: "I hear that you're overwhelmed. That sounds really heavy."
-        A->>U: Suggests Grounding Exercise (e.g., Box Breathing)
-    end
-
-```
 
 ---
 
