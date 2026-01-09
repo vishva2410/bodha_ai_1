@@ -1,14 +1,3 @@
-Here is a significantly improved `README.md` for **Bodha AI**.
-
-I have enhanced the professional look, added **Mermaid.js charts** (which render natively on GitHub) to visualize the architecture and flow, and expanded the technical description to make it a robust portfolio piece.
-
-You can copy and paste the code block below directly into your `README.md` file.
-
----
-
-### 📋 Recommended `README.md` Code
-
-```markdown
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=700&size=35&pause=1000&color=34ebc2&center=true&vCenter=true&width=600&lines=Bodha+AI;Real-Time+Mental+Wellness+Companion;Voice+%26+Text+Interaction;Powered+by+LiveKit+%26+LLMs;Active+Experimental+Prototype" alt="Typing SVG" />
 </div>
@@ -35,7 +24,7 @@ You can copy and paste the code block below directly into your `README.md` file.
 
 Bodha AI utilizes a sophisticated pipeline enabling low-latency voice interaction. Below is the high-level data flow from the user to the AI agent.
 
-```mermaid
+
 graph TD
     User([👤 User]) -->|Microphone Input| FE[💻 Frontend / Client]
     FE -->|WebRTC Stream| LK[📡 LiveKit Server]
@@ -53,7 +42,7 @@ graph TD
     LK -->|Playback| FE
     FE -->|Audio Output| User
 
-```
+
 
 ---
 
