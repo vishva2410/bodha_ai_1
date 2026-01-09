@@ -1,3 +1,4 @@
+```markdown
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=700&size=35&pause=1000&color=34ebc2&center=true&vCenter=true&width=600&lines=Bodha+AI;Real-Time+Mental+Wellness+Companion;Voice+%26+Text+Interaction;Powered+by+LiveKit+%26+LLMs;Active+Experimental+Prototype" alt="Typing SVG" />
 </div>
@@ -37,6 +38,9 @@ graph TD
     AG -->|Response Audio| LK
     LK -->|Playback| FE
     FE -->|Audio Output| User
+```
+
+```mermaid
 sequenceDiagram
     participant U as User
     participant A as Bodha AI
@@ -53,6 +57,7 @@ sequenceDiagram
         A->>U: "I hear that you're overwhelmed. That sounds really heavy."
         A->>U: Suggests Grounding Exercise (e.g., Box Breathing)
     end
+```
 
 ## 🌟 Core Features
 
@@ -86,13 +91,12 @@ sequenceDiagram
 
 ## ❗ Important Ethical Disclaimer
 
-> [!WARNING]
+> **⚠️ WARNING**
 > **Bodha AI is NOT a licensed medical provider.**
 > This application is an **academic prototype** designed to explore Human-Computer Interaction (HCI) in emotional wellness.
 > * It cannot diagnose mental health conditions.
 > * It cannot prescribe medication.
 > * It is not a replacement for professional therapy.
-> 
 > 
 > **If you are in crisis, please contact your local emergency services immediately.**
 
@@ -102,28 +106,18 @@ sequenceDiagram
 <h3>👤 Author</h3>
 <p>
 <b>Vishva Teja Guduguntla</b>
-
-
-
-
+<br />
 <i>AI & Healthcare Systems Enthusiast</i>
 </p>
 <p>
 <a href="https://linkedin.com/in/vishva-teja-guduguntla">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn" />
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://www.google.com/search?q=https://github.com/vishva-teja">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-Follow-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" alt="GitHub" />
+<a href="https://github.com/vishva-teja">
+<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 </p>
 
-
-
-
-
 <h5>🧭 Note: Bodha AI exists to demonstrate responsible AI design, system thinking, and ethical awareness in emotionally sensitive domains.</h5>
 </div>
-
-```
-
 ```
