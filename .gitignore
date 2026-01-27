@@ -2,3 +2,6 @@ GOOGLE_API_KEY =AIzaSyB44VoToaA3P1KPYgYy6-Zw-----RBvq8M980
 LIVEKIT_URL=wss://mindcareagent-hyh--99wlxyk.livekit.cloud
 LIVEKIT_API_KEY=APIY3vFL---vHxda
 LIVEKIT_API_SECRET=8ocpVjJYBHgg9sJgeD8Jixsev----ecndDBcTf2D5vzfG
+
+__pycache__/
+*.pyc
